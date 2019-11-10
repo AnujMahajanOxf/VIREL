@@ -1,6 +1,6 @@
 # VIREL
 This repo contains the code for VIREL: A Variational Inference Framework for Reinforcement Learning, accepted for NeurIPS 2019. The paper can be founds at https://arxiv.org/abs/1811.01132.
-The code is based on Vitchyr Pong's rlkit implemtation available at https://github.com/vitchyr/rlkit/tree/master/rlkit
+The code is based on Vitchyr Pong's rlkit implementation available at https://github.com/vitchyr/rlkit/tree/master/rlkit.
 Clone that repo first, our code for virel and beta can be run by adding the files virel.py and beta.py in rlkit/rlkit/torch/sac/. We also provide experiment files virel_exp.py, beta_exp.py to run gym-mujoco tasks on our algorithms, the arguments for which are:
 
  - 1. env name
